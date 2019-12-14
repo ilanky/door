@@ -896,8 +896,8 @@ window.LEVEL_CONFIG = [
 	{
 		canvas:document.getElementById("canvas_1"),
 		player:{ x:150, y:175 },
-		door:{ x:150, y:75 },
-		key:{ x:150, y:275 },
+		door:{ x:150, y:60 },
+		key:{ x:150, y:225 },
 		circles: [
 			{x:0,y:150,radius:100},
 			{x:300,y:150,radius:100}
@@ -929,7 +929,9 @@ window.LEVEL_CONFIG = [
 		door:{ x:270, y:75 },
 		key:{ x:150, y:270 },
 		circles: [
-			{x:150,y:150,radius:115}
+			{x:150,y:150,radius:115},
+			{x:0,y:300,radius:70},
+			{x:300,y:300,radius:70}
 		],
 		countdown: 130
 	}
